@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <body>
-    <div class="container content">
+    <div class="container content" id="test">
         <div class="row">
             <h1>Wiki Viewer</h1> 
         
@@ -17,10 +17,30 @@
             </div>
         <input type="search" class="search-bar" placeholder="Search Wikipedia" id="keyword">
         <div class="row">
-            <button class="search-button buttons">Search the Wiki</button>
-            <button class="random-button buttons">I'm Feeling Lucky!</button>
+            <button class="search-button buttons" id="search" onclick="sendToPage();">Search the Wiki</button>
+            <button class="random-button buttons"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">I'm Feeling Lucky!</a></button>
         </div>
     </div>
+    
+    <!--Search Results Page -->
+    <div class="search-results">
+        <div class="row hidden-heading">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png" class="hidden-scale"> 
+            <input type="search" class="hidden-search-bar" placeholder="Search Wikipedia" id="keyword">
+        </div>
+        <div class="hidden-results">
+    <h3 id="test-title-1"></h3>
+    <p id="test-snippet-1"></p>
+        <h3 id="test-title-2"></h3>
+    <p id="test-snippet-2"></p>
+        <h3 id="test-title-3"></h3>
+    <p id="test-snippet-3"></p>
+        <h3 id="test-title-4"></h3>
+    <p id="test-snippet-4"></p>
+        <h3 id="test-title-5"></h3>
+    <p id="test-snippet-5"></p>
+            </div>
+        </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>

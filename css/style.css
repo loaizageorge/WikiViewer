@@ -43,14 +43,51 @@ h1 {
     line-height: 27px;
 }
 
-img {
+a:link,a:visited,a:hover{
+    color: #757575;
+    text-decoration: none;
+}
+
+.scale {
     display: inline-block;
     height: auto;
     width: 110px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .title {
     display: inline-block;
     
+}
+
+/*---SEARCH RESULTS---*/
+
+.hidden-heading{
+    display: none;
+    background-color: #f2f2f2;
+    padding:10px 40px 5px 40px; 
+}
+
+.hidden-search-bar{
+    width: 600px;
+    height: 36px;
+}
+
+.hidden-scale{
+    width:75px;
+    height: auto;
+    margin-right: 20px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.hidden-results{
+    padding-top: 20px;
+    padding-left: 8%;
 }
