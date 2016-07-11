@@ -75,6 +75,10 @@ a.results-link:visited{
     color: purple !important;
 }
 
+.green-text{
+    color:green;
+}
+
 .hidden-heading{
     display: none;
     background-color: #f2f2f2;
@@ -82,7 +86,7 @@ a.results-link:visited{
 }
 
 .hidden-search-bar{
-    width: 600px;
+    width: 55%;
     height: 36px;
 }
 
@@ -102,6 +106,6 @@ p{
 
 .hidden-results{
     padding-top: 20px;
-    padding-left: 8%;
+    padding-left: 8.5%;
 
 }
