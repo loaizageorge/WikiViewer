@@ -60,6 +60,17 @@ a:link,a:visited,a:hover{
     
 }
 
+
+#foot{
+    text-align: center;
+    font-size: 11px;
+}
+
+#credit{
+    color:deepskyblue;
+    font-weight: bolder;
+}
+
 /*---SEARCH RESULTS---*/
 
 a.results-link:link{
