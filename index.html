@@ -2,10 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width" ,initial-scale=1>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css"> </head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
 
 <body>
     <div class="container content" id="test">
@@ -16,42 +15,17 @@
             <button class="search-button buttons" id="search" onclick="sendToPage();">Search the Wiki</button>
             <button class="random-button buttons"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">I'm Feeling Lucky!</a></button>
         </div>
-         <p id="foot">Designed and coded by<a href="https://github.com/xchendo/WikiViewer" target="_blank" id ="credit"> George</a></p>
+        <p id="foot">Designed and coded by<a href="https://github.com/xchendo/WikiViewer" target="_blank" id="credit"> George</a></p>
     </div>
-    
-   
-    
     <!--Search Results Page -->
     <div class="search-results">
         <div class="row hidden-heading">
             <a href="#" onclick="showMain();"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png" class="hidden-scale"> </a>
             <input type="search" class="hidden-search-bar" placeholder="Search Wikipedia" id="hidden-keyword"> </div>
-        <div class="hidden-results">
-            
-            <h3 id="test-title-0"></h3>
-            <p class ="green-text" id="link-0"></p>
-            <p id="test-snippet-0"></p>
-            
-            <h3 id="test-title-1"></h3>
-            <p class ="green-text" id="link-1"></p>
-            <p id="test-snippet-1"></p>
-            
-            <h3 id="test-title-2"></h3>
-            <p class ="green-text" id="link-2"></p>
-            <p id="test-snippet-2"></p>
-            
-            <h3 id="test-title-3"></h3>
-            <p class ="green-text" id="link-3"></p>
-            <p id="test-snippet-3"></p>
-            
-            <h3 id="test-title-4"></h3>
-            <p class ="green-text" id="link-4"></p>
-            <p id="test-snippet-4"></p>
-        </div>
+        <div class="hidden-results"> </div>
     </div>
+    
+</body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
-</body>
-<footer> 
-    
-    </footer>
+<footer> </footer>
